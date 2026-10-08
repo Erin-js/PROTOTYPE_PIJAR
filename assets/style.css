@@ -1,0 +1,32 @@
+:root { --pijar-green:#18865f; --pijar-blue:#173c65; }
+.stApp { background:#f5f8f5; }
+[data-testid="stSidebar"] { background:#fff; border-right:1px solid #e1e8e2; }
+.block-container { padding-top:1.7rem; padding-bottom:2rem; max-width:1240px; }
+h1,h2,h3 { color:#173c65; letter-spacing:-.035em; }
+h1 { font-size:2.15rem !important; }
+p,li { line-height:1.6; }
+.brand { display:flex; align-items:center; gap:11px; margin-bottom:1.4rem; }
+.brand-mark { width:42px; height:42px; background:#18865f; border-radius:14px; color:white;
+ display:flex; align-items:center; justify-content:center; font-weight:900; font-size:25px; }
+.brand-name { font-size:25px; font-weight:900; color:#173c65; letter-spacing:.05em; }
+.brand-sub { font-size:11px; color:#667b72; margin-top:-3px; }
+.eyebrow { font-size:11px; letter-spacing:.13em; font-weight:800; color:#258263; text-transform:uppercase; }
+.hero { background:linear-gradient(115deg,#e2f1e5,#edf4df); border:1px solid #d4e5d4;
+ padding:28px 32px; border-radius:22px; margin:5px 0 22px; position:relative; overflow:hidden; }
+.hero h1 { margin:.3rem 0 .6rem; max-width:760px; }
+.hero p { color:#426452; max-width:700px; margin:0; }
+.hero::after { content:''; position:absolute; right:-45px; top:-65px; height:230px; width:230px;
+ border:25px solid #cee2b9; border-radius:50%; opacity:.48; pointer-events:none; }
+.feature-card { border-radius:18px; background:white; border:1px solid #dde6df; padding:21px;
+ height:235px; box-sizing:border-box; margin:0 0 8px; }
+.feature-number { color:#6e977c; font-weight:800; font-size:11px; letter-spacing:.1em; }
+.feature-card h3 { margin:8px 0 8px; font-size:20px; min-height:50px; }
+.feature-card p { font-size:13px; color:#60716b; }
+.notice { background:#eaf1fa; border-left:3px solid #446f9e; padding:12px 16px;
+ border-radius:0 10px 10px 0; font-size:13px; color:#294d70; margin:12px 0 18px; }
+.small-label { color:#6c7c73; font-size:12px; }
+[data-testid="stMetric"] { background:white; padding:16px 18px; border:1px solid #e0e8e1; border-radius:15px; }
+[data-testid="stMetricValue"] { color:#173c65; font-weight:750; }
+[data-testid="stVerticalBlockBorderWrapper"] { border-radius:16px; }
+.footer { border-top:1px solid #dbe5dd; margin-top:30px; padding-top:15px; color:#718078; font-size:12px; }
+@media(max-width:700px) { .hero { padding:20px; } .hero h1 { font-size:1.7rem !important; } .feature-card { height:auto; } .feature-card h3 { min-height:0; } }

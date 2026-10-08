@@ -1,0 +1,8 @@
+[
+  {"id":"biaya","name":"Konsultasi Bantuan Biaya","unit":"Unit Kemahasiswaan (contoh)","needs":["Biaya kuliah"],"description":"Diskusikan pilihan bantuan biaya dan dokumen yang perlu disiapkan. Bukan janji menerima beasiswa.","mode":"Daring / tatap muka","capacity":8,"available":true},
+  {"id":"akademik","name":"Teman Belajar","unit":"Dosen Wali dan Tutor (contoh)","needs":["Belajar dan akademik"],"description":"Susun rencana belajar, bahas mata kuliah, dan pilih pendampingan akademik.","mode":"Daring / tatap muka","capacity":12,"available":true},
+  {"id":"waktu","name":"Konsultasi Kuliah dan Kerja","unit":"Dosen Wali (contoh)","needs":["Waktu kuliah dan kerja"],"description":"Bahas jadwal dan pilihan pengaturan beban kuliah bersama pendamping.","mode":"Tatap muka","capacity":6,"available":true},
+  {"id":"adaptasi","name":"Ruang Adaptasi","unit":"Mentor Sebaya (contoh)","needs":["Adaptasi dan dukungan"],"description":"Kenali kehidupan kampus, tempat bertanya, dan kelompok pendamping sebaya.","mode":"Daring / tatap muka","capacity":10,"available":true},
+  {"id":"konseling","name":"Ruang Konseling","unit":"Layanan Konseling (contoh)","needs":["Adaptasi dan dukungan"],"description":"Ajukan percakapan privat dengan pengelola layanan konseling. PIJAR tidak melakukan diagnosis.","mode":"Tatap muka","capacity":4,"available":true},
+  {"id":"kegiatan","name":"Pintu Kegiatan dan Prestasi","unit":"Pusat Kegiatan Mahasiswa (contoh)","needs":["Kegiatan dan prestasi"],"description":"Cari informasi kegiatan, mentoring lomba, dan cara mulai berpartisipasi.","mode":"Daring","capacity":15,"available":false}
+]

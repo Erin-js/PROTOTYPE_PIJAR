@@ -1,0 +1,33 @@
+{
+  "source": "CDW 2026 / Real World Fake Data",
+  "metrics": {
+    "n": 5000,
+    "fg_n": 1924,
+    "fg_rate": 0.3848,
+    "fg_low_n": 808,
+    "low_n": 1111,
+    "fg_low_rate": 0.7272727272727273,
+    "work_fg_low_n": 377,
+    "work_fg_low_rate": 0.4665841584158416
+  },
+  "achievement_rows": 6414,
+  "history_rows": 25099,
+  "cohort_1_4_n": 3603,
+  "forecast": {
+    "n": 1213,
+    "mae": 0.22881338252638558,
+    "rmse": 0.289879860811527,
+    "r2": 0.5807524791484173,
+    "coverage": 0.910964550700742,
+    "baseline_mae": 0.2715498763396537,
+    "q": 0.4845317453068354
+  },
+  "sha256": {
+    "1_profil_mahasiswa_umum.csv": "e31a544c1953e0abe637ff968d1d57d6c9baa04618de1db9495cf4144f43c019",
+    "2_prestasi_mahasiswa.csv": "f17f4eaf7ba1246bd8746458af14ae4f144006a23934c1ddc47e78723ae56001",
+    "3_generasi_pertama_kuliah.csv": "c71d1f6d807385f7852d7f87745dc65ecae511cf376bab86cec8afa1e93ce60c",
+    "4_status_sosial_ekonomi.csv": "3da2ed03ce89094860d169eae949bf33873dacb9279f7dbe4d8fd974f7ac2b44",
+    "5_riwayat_ipk_semester.csv": "b3a4af50aaf1fba4f52b3321cb87a14b069bff981b84d89da40f7f08dc4ca990"
+  },
+  "source_priority": "Frame 8.png dan keputusan terakhir pengguna mengungguli nama serta rancangan lama."
+}
